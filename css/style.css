@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(46, 40, 51);
     text-decoration: none;       /* Elimina el subrayado del enlace */
     display: flex;
 }
@@ -20,7 +20,7 @@ nav {
 
 .caja1 {
     height: 100vh;
-    background-color: #350c0c;
+    background-color: #41283c;
     border: solid 2px #ffffff;
     display: flex;
     flex-direction: column; /*bueno eso es pa que se distribuya en columnas, podriamos usar row pero no me salian las cajas como debian */
@@ -38,7 +38,7 @@ nav {
 
 .caja3,.perfil_lado_texto {
     height: 5vh;
-    background-color: #4d0606;
+    background-color: #402f44;
     border: solid 2px #ffffff;
     display: flex;               /* Usar flexbox para alinear el contenido */
     align-items: center;         /* Centrar el contenido verticalmente */
@@ -62,11 +62,11 @@ nav {
 }
 
 .perfil_lado_texto:hover {
-    background-color: #A040A0;
+    background-color: #815d8f;
 }
 
 .caja3:hover {
-    background-color: #A040A0;
+    background-color: #583758;
 }
 
 .perfil {
@@ -108,7 +108,7 @@ footer {
 
 .historias {
     height: 100vh;
-    background-color: #BC5DC1;
+    background-color: #644366;
     border: solid 2px #ffffff;
     display: flex;
     flex-wrap: wrap;  /* Permite que los elementos se envuelvan a la siguiente línea */
@@ -116,7 +116,7 @@ footer {
 }
 
 .historias_cajas {
-    background-color: #A040A0;
+    background-color: #5c415c;
     border: solid 2px #ffffff;
     height: 15vh;
     align-items: center; 
